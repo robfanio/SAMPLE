@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-30T08:11:29 EST" name="Default suite" finished-at="2020-12-30T08:12:04 EST" duration-ms="35066">
+    <groups>
+    </groups>
+    <test started-at="2020-12-30T08:11:29 EST" name="Default test" finished-at="2020-12-30T08:12:04 EST" duration-ms="35066">
+      <class name="expedia.Expedia_test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:expedia.Expedia_test@36b4fe2a]" started-at="2020-12-30T08:11:29 EST" name="beforeMethod" finished-at="2020-12-30T08:11:39 EST" duration-ms="10103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="BookingFlights()[pri:0, instance:expedia.Expedia_test@36b4fe2a]" started-at="2020-12-30T08:11:39 EST" name="BookingFlights" finished-at="2020-12-30T08:12:04 EST" duration-ms="24117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingFlights -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:expedia.Expedia_test@36b4fe2a]" started-at="2020-12-30T08:12:04 EST" name="afterMethod" finished-at="2020-12-30T08:12:04 EST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- expedia.Expedia_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
