@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite Vesrion 1">
+	<listeners>
+		<listener class-name= "Reporting.Listen1" />
+
+	</listeners>
+
+	<test name="Smoke Test">
+		<classes>
+			<class name="expedia.Expedia_test" />
+
+		</classes>
+
+	</test>
+
+</suite>

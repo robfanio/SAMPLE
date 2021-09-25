@@ -1,10 +1,14 @@
 package expedia;
 
+import java.io.IOException;
+
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(Reporting.Listen1.class)
 public class Expedia_test extends AbstractBase {
   @Test
-  public void BookingFlights() throws InterruptedException {
+  public void BookingFlights() throws InterruptedException, IOException {
 	  
 	  // Choosing flights
 	  page.clickFlights();
@@ -12,13 +16,17 @@ public class Expedia_test extends AbstractBase {
 	  
 	  //Choosing days to live and going on the calendar
 	  page.inputLeaving();
+	  shot.pics();
 	  page.inputGoingTo();
 	  page.clickCalendar1();
+	  shot.pics();
 	  Thread.sleep(2000);
 	  page.clickBeginDate();
+	  shot.pics();
 	  page.clickEndDate();
 	  page.clickDone();
 	  page.clickSearch();
+	  shot.pics();
 	  Thread.sleep(2000);
 	  
 	  page.clickPick();
@@ -60,7 +68,15 @@ public class Expedia_test extends AbstractBase {
   }
  
   
-  
+  @Test
+  public void RentalTest() throws InterruptedException {
+
+	  car.clickCarIcon();
+	  Thread.sleep(3000);
+	  car.clickGoing();
+	  car.inputLocation();
+	  car.clickSearch();
+  }
   
 
   

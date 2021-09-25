@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite Vesrion 1]">
+  <listeners>
+    <listener class-name="Reporting.Listen1"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test(failed)">
+    <classes>
+      <class name="expedia.Expedia_test">
+        <methods>
+          <include name="BookingFlights"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- expedia.Expedia_test -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [TestSuite Vesrion 1] -->
